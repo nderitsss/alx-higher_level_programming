@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 for i in range(0, 99):
 	hex1 = i % 16
-	hex2 = (i//16) % 16
+	if (i < 16):
+		continue
+	else:
+		hex2 = (i//16) % 16
 	if hex1 > 9:
 		hex1 = chr(hex1  + 87)
 	elif hex2 > 9:
