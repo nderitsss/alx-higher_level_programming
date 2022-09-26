@@ -5,4 +5,4 @@ def no_c(my_string):
             continue
         else:
             print("{}".format(my_string[i]), end="")
-    return ''
+    return ""
